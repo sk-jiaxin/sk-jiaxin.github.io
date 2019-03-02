@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[细胞冻存]]></title>
+    <url>%2F2019%2F03%2F01%2F%E7%BB%86%E8%83%9E%E5%86%BB%E5%AD%98%2F</url>
+    <content type="text"><![CDATA[细胞冻存的基本原则是缓慢冷冻，实验证明这样可以最大限度的保存细胞活力。目前细胞冻存多采用甘油或二甲基亚砜（DMSO）作保护剂，这两种物质能提高细胞膜对水的通透性，加上缓慢冷冻可使细胞内的水分渗出细胞外，减少细胞内冰晶的形成，从而减少由于冰晶形成造成的细胞损伤。细胞冻存1、 试剂与设备1.1 试剂：完全培养基（或者胎牛血清–FBS），胰蛋白酶（0.25%），DMSO（分析纯），PBS。1.2 器具：冻存管，冻存盒（含有效的异丙醇），滴管若干，15mL离心管。2、 原理细胞冻存的基本原则是缓慢冷冻，实验证明这样可以最大限度的保存细胞活力。目前细胞冻存多采用甘油或二甲基亚砜（DMSO）作保护剂，这两种物质能提高细胞膜对水的通透性，加上缓慢冷冻可使细胞内的水分渗出细胞外，减少细胞内冰晶的形成，从而减少由于冰晶形成造成的细胞损伤。3、 实验步骤3.1 对超净工作台进行30min的紫外消毒，对PBS，完全培养基（或血清）和胰蛋白酶（0.25%）进行复温（37℃），将冻存盒放置于4℃冰箱。准备若干滴管。3.2 打开排风机，点燃酒精灯，使用酒精棉球对紫外消毒后的工作台桌面从右往左擦拭3次。将PBS和血清的瓶盖打开直立，置于桌面3.3 用滴管将旧培养液液吸出弃于废液缸，操作如图，尽量避免接触到贴壁侧细胞。然后用PBS对细胞进行洗涤，除去漂浮的死细胞。洗涤进行两次，吸取PBS的滴管需专用，且避免接触瓶口。3.4 加入1mL 胰蛋白酶进行消化，稍微摇匀消化液使之充分浸没贴壁细胞，放置于超净工作台，消化2min左右。观察贴壁细胞是否脱离瓶壁，可用消化液适当吹打贴壁较紧的细胞。3.5 加入3mL完全培养基终止消化，稍稍吹打未消化下来的细胞，然后将其转移至15mL 离心管中，；离心1000 rpm，5min。弃上清，加入1mL 血清，重悬细胞。3.6 取两个冻存管，做好相应标记，注明日期。用移液器分别吸取460 μL细胞悬液加入两个冻存管，再分别加入40 μL DMSO，改好管盖。放于4℃的冻存盒。再转移至-80℃冰箱保存过夜。待冻存盒缓慢降温后转移至液氮中保存。注意事项： 吸取培养基、血清、PBS和胰蛋白酶的滴管需各自专用，避免污染试剂。 滴加培养基、血清、PBS和胰蛋白酶时需在瓶口悬空加入，避免污染试剂。 吸取旧的液体废弃时不可太靠近废液缸，避免滴管被污染，进而污染细胞。 打开瓶（管）盖均先用酒精擦拭瓶（管）口四周，在酒精灯外焰下消毒，打开后瓶（管）口亦在外焰下消毒片刻再放置好。盖回瓶（管）盖时操作同上。]]></content>
+      <categories>
+        <category>细胞培养</category>
+      </categories>
+      <tags>
+        <tag>细胞冻存</tag>
+        <tag>细胞培养</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F03%2F01%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
