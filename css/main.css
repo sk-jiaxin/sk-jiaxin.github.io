@@ -1063,7 +1063,7 @@ pre .javascript .function {
   right: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 0.6;
@@ -1610,7 +1610,7 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 80px auto 60px;
-  width: 8%;
+  width: 100%;
   height: 1px;
   background: #ccc;
   text-align: center;
@@ -1641,6 +1641,42 @@ pre .javascript .function {
 .fancybox-close,
 .fancybox-close:hover {
   border: none;
+}
+.post-widgets {
+  border-top: 1px solid #eee;
+  padding-top: 9px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.post-widgets .post-meta-divider {
+  height: 28px;
+  color: #999;
+}
+.wp_rating {
+  height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 6px;
+}
+.social-like {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.vk_like {
+  width: 85px;
+  height: 21px;
+  padding-top: 7px;
+  align-self: center;
+}
+.fb_like {
+  height: 30px;
+  align-self: center;
 }
 .rtl.post-body p,
 .rtl.post-body a,
@@ -1742,6 +1778,46 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
+/* 头像圆形 */
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  box-shadow: inset 0 -1px 0 #333 sf;
+/* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束
+    (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/
+/* 鼠标经过头像旋转360度 */
+  -webkit-transition: -webkit-transform 1s ease-out;
+  -moz-transition: -moz-transform 1s ease-out;
+  transition: transform 1s ease-out;
+}
+img:hover {
+/* 鼠标经过停止头像旋转
+  -webkit-animation-play-state:paused;
+  animation-play-state:paused;*/
+/* 鼠标经过头像旋转360度 */
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@-webkit-keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+  }
+}
+@-moz-keyframes play {
+  0% {
+    -moz-transform: rotateZ(0deg);
+  }
+  100% {
+    -moz-transform: rotateZ(-360deg);
+  }
 }
 .site-author-name {
   margin: 0;
@@ -1754,6 +1830,70 @@ pre .javascript .function {
   text-align: center;
   font-size: 13px;
   color: #999;
+}
+@-moz-keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    -moz-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    -o-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+}
+@-webkit-keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    -moz-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    -o-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+}
+@-o-keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    -moz-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    -o-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+}
+@keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    -moz-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    -o-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
 }
 .site-state {
   overflow: hidden;
@@ -1823,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2bffff;
+  background: #7eff83;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2366,12 +2506,28 @@ pre .javascript .function {
 .page-pv .busuanzi-value {
   margin: 0 5px;
 }
-.site-uv {
-  margin-right: 10px;
+#needsharebutton-postbottom {
+  position: relative;
+  cursor: pointer;
+  height: 26px;
 }
-.site-uv::after {
-  content: "|";
-  padding-left: 10px;
+#needsharebutton-postbottom .btn {
+  display: initial;
+  padding: 1px 4px;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+#needsharebutton-float {
+  position: fixed;
+  bottom: 38px;
+  left: -8px;
+  z-index: 9999;
+  cursor: pointer;
+}
+#needsharebutton-float .btn {
+  padding: 0 10px 0 14px;
+  border: 1px solid #555;
+  border-radius: 4px;
 }
 .page-archive .archive-page-counter {
   position: relative;
@@ -2617,7 +2773,7 @@ pre .javascript .function {
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: #fff;
+  background: rgba(255,255,255,0.9);
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2933,6 +3089,9 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 .links-of-author-item a {
   display: block;
@@ -2985,6 +3144,9 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 @media (max-width: 767px) {
   .post-body {
