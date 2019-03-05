@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[RNA的提取]]></title>
+    <url>%2F2019%2F03%2F05%2FRNA%E7%9A%84%E6%8F%90%E5%8F%96%2F</url>
+    <content type="text"><![CDATA[Trizol是一种总RNA抽提试剂，采用变性剂即内含异硫氰酸胍酚和β-巯基乙醇等变性物质，能迅速破碎细胞，抑制细胞释放出的核酸酶。异硫氰酸胍属于解偶剂，是一类强力的蛋白质变性剂，可溶解蛋白质，并使蛋白质二级结构消失，细胞结构降解，核蛋白迅速与核酸分离。β-巯基乙醇主要破坏RNase蛋白质中的二硫键。细胞裂解后，细胞释放出蛋白质、DNA、RNA等物质，再根据它们在不同的PH值和不同极性溶剂的溶解度不同而使得分开。 需要什么试剂？ 液氮、TRIzol®reagent、氯仿、异丙醇、无水乙醇、水（用DEPC处理过） 如何操作？ 以冷冻保存的组织样品为例 于-80℃冰箱中剪取斜带石斑鱼全脑和肝脏样品于预液氮预冷的研钵中，对冷冻组织样品的操作需要在液氮中进行，以降低RNA活性酶。尽量将组织研磨成细小的粉末，加入600 μL的TRIzol®reagent，用匀浆器尽量混匀以充分裂解细胞，之后再加入400μL的TRIzol®reagent再次混匀。 加入 200 μl 氯仿，涡旋剧烈振荡 15 s，然后室温静置 2 ~ 3 min以便溶液分层。 4℃，12,000 × g，离心 15 min； 将上清液转移至另一 1.5 ml 离心管中，加入 500 μl异丙醇，涡旋振荡混匀，室温静置5 ~ 10 min。 4℃，12,000 × g，离心 5 min，弃上清；短暂离心，除去剩余异丙醇。 加入 l ml 75% 乙醇，充分振荡并洗涤 RNA沉淀两次。 4℃，7,500 × g，离心 5 min，弃上清；并短暂离心，用枪头小心除去剩余乙醇。 室温干燥约 5 min后，加入适量 DEPC处理的 H2O溶解 RNA。 怎么验证质量？ 用核酸蛋白测定仪测定样品 OD260和 OD280值以确定浓度及 RNA质量，其中 OD260/280值约在 1.8 ~ 2.0之间。 取约 1 μg RNA上样于 1.0%琼脂糖凝胶，检查RNA质量。]]></content>
+      <categories>
+        <category>核酸提取</category>
+      </categories>
+      <tags>
+        <tag>RNA提取，Tiozol</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[test file]]></title>
     <url>%2F2019%2F03%2F03%2Fimportant-file%2F</url>
     <content type="text"><![CDATA[There is nothing here.]]></content>
